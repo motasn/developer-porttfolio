@@ -81,7 +81,18 @@ nav a {
     max: width 500px; ;
 }
 /* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
 
+}
+.about-info{
+    text-align: center;
+}
 /* about section */
 .about{
     padding:120px ;
