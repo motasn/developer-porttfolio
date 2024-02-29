@@ -6,7 +6,8 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
+    margin: 0 200px;
 }
 .text-primary{
     color: #FD6E0A;
@@ -18,17 +19,15 @@ border: 0;
 color: white;
 font-size: 20px;
 font-weight: 700;
-line-height: 27px;
 padding: 6px 20px ;
 
 }
 .nav-title{
-    
+    color: #181818;
     font-size: 45px;
     font-weight: 800;
-    line-height: 61px;
-    letter-spacing: 0%;
-    text-align: left;}
+    
+}
     
 nav > ul{
     display: flex;
@@ -36,7 +35,7 @@ nav > ul{
 }
 nav li {
     list-style: none;
-    margin-right: 30px;
+    margin-right: 50px;
    
 }
 nav a {
@@ -47,4 +46,12 @@ nav a {
 /* header style */
 .header{
     background-color: rgb(255, 248, 243);
+}
+.banner{
+    padding: 20px 20px 20px 120px;
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 400px; ;
 }
